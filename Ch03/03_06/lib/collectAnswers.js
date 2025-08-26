@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 
 module.exports = (questions, done) => {
-    const answers = [];
+    let answers = [];
     const [firstQuestion] = questions;
 
     const questionAnswered = (answer) => {

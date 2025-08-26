@@ -7,7 +7,7 @@ const rl = createInterface({
 });
 
 module.exports = (questions, done) => {
-    const answers = [];
+    let answers = [];
     const [firstQuestion] = questions;
     const emitter = new EventEmitter();
 

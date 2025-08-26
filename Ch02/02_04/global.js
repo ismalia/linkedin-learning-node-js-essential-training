@@ -5,7 +5,7 @@ const questions = [
     "What would you rather be doing?",
     "What is your favorite programming language?"
 ];
-const answers = [];
+let answers = [];
 
 function ask(i) {
     process.stdout.write(`\n\n\n${questions[i]}`);

@@ -12,6 +12,6 @@ const answerEvents = collectAnswers(questions, (answers) => {
     process.exit();
 });
 
-answerEvents.on("answer", (answer) =>
-    console.log(`The answer is ${answer}`)
-);
+answerEvents.on("answer", (answer) => {
+    console.log(`The answer is ${answer}`);
+});

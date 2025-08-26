@@ -12,7 +12,7 @@ const questions = [
 ];
 
 function collectAnswers(questions, done) {
-    const answers = [];
+    let answers = [];
 
     const questionAnswered = (answer) => {
         answers.push(answer.trim());
