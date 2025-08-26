@@ -7,7 +7,7 @@ const timerFinished = () => {
     process.stdout.clearLine();
     process.stdout.cursorTo(0);
     console.log("Waiting... 100%");
-    console.log("Done.");
+    console.log("Done!");
 };
 
 setTimeout(timerFinished, waitTime);

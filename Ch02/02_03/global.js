@@ -8,5 +8,5 @@ function grab(flag) {
 let greeting = grab("--greeting");
 let user = grab("--user");
 
-console.log(`Greeting: ${greeting}`);
+console.log(`\nGreeting: ${greeting}`);
 console.log(`User: ${user}`);

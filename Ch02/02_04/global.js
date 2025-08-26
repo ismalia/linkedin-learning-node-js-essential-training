@@ -1,4 +1,4 @@
-process.stdout.write("Hello\n\n");
+process.stdout.write("Hello!\n\n");
 
 const questions = [
     "What is your name?",

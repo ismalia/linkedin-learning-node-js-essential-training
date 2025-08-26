@@ -5,7 +5,7 @@ console.log(`Setting a ${waitTime / 1000} seconds delay...`);
 const timerFinished = () => {
     clearInterval(interval);
     console.log(`Waited ${waitTime / 1000} seconds.`);
-    console.log("Done.");
+    console.log("Done!");
 };
 
 setTimeout(timerFinished, waitTime);
